@@ -16,16 +16,24 @@ p h2 a{
 .main-wrapper{
     padding: 100px ;
     text-align: center;
+}
+.navbar{
     background-color: var(--bg-color);
+    
+}
+.navbar-brand{
+    font-family: var(--default-font-familydefault-font-family);
+    font-size: 15px;
 }
 .btn-main{
    background-color: var(--main-color);
    font-weight: 500;
     border-radius: 0;
     padding: 12px 25px;
+    border: var(--main-color) 2px solid;
 }
 .btn-main:hover{
-    border: black 2px solid;
+    border: #000 2px solid;
 }
 footer{
     background-color: var(--footer-color);
