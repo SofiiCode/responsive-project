@@ -29,11 +29,12 @@ p h2 a{
    background-color: var(--main-color);
    font-weight: 500;
     border-radius: 0;
+    color: white;
     padding: 12px 25px;
-    border: var(--main-color) 2px solid;
+    transition: all 0.2s;
 }
 .btn-main:hover{
-    border: #000 2px solid;
+    border: #000 1px solid;
 }
 footer{
     background-color: var(--footer-color);
@@ -52,3 +53,17 @@ footer a:hover{
     padding: 10px;
 }
 
+/* about styles */
+.about-wrapper{
+    margin: 50px auto;
+}
+.about-wrapper p{
+   font-size: 12px; 
+}
+.about-wrapper  img{
+    margin-top: 110px;
+}
+.line{
+    margin: 20px auto 40px auto;
+    border-top: var(--main-color) 2px solid ;
+}
