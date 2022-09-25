@@ -7,10 +7,10 @@ font-family: 'Poppins', sans-serif; */
     --heading-font-family:'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
 }
-h1{
+h1,h2,h3,h4,h5,h6{
   font-family: var(--heading-font-family);  
 }
-p h2 a{
+p, a{
   font-family: var(--default-font-family) ;   
 }
 .main-wrapper{
@@ -39,10 +39,11 @@ p h2 a{
    font-weight: 500;
     border-radius: 0;
     color: white;
-    padding: 12px 25px;
+    padding: 15px 30px;
     transition: all 0.2s;
 }
 .btn-main:hover{
+    border-color: var(--main-color);
     border: #000 1px solid;
 }
 .gallery a{
@@ -90,15 +91,15 @@ footer a:hover{
 .carts-wrapper p{
     font-size: 12px;
 }
+.cart-tittle{
+    line-height: 1.7;
+}
 .btn-second{
     border: #000 1px solid ;
     border-radius: 0;
     padding: 10px 25px;
 }
-.btn-second:hover{
-    border: var(--footer-color) 1px solid;
-    background-color: var(--footer-color);
-}
+
 .cart-box{
     background: #f8f9fa;
 }
