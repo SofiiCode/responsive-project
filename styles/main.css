@@ -7,10 +7,11 @@ font-family: 'Poppins', sans-serif; */
     --heading-font-family:'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2{
   font-family: var(--heading-font-family);  
+  line-height: 1.8;
 }
-p, a{
+p, a h3,h4,h5,h6{
   font-family: var(--default-font-family) ;   
 }
 .main-wrapper{
@@ -109,6 +110,14 @@ footer a:hover{
         padding: 40px;
     }
    .gallery-m{
+    margin-top: 20px;
+}
+.about-wrapper img{
+    margin: 30px 0;
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
 }
 }
