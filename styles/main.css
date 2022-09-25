@@ -50,6 +50,7 @@ p, a{
     text-decoration: none;
     color: #000;
 }
+
 footer{
     background-color: var(--footer-color);
     padding: 50px;
@@ -102,4 +103,12 @@ footer a:hover{
 
 .cart-box{
     background: #f8f9fa;
+}
+@media(max-width:576px){
+    .main-wrapper{
+        padding: 40px;
+    }
+   .gallery-m{
+    margin-top: 20px;
+}
 }
