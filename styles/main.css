@@ -46,7 +46,7 @@ p, a h3,h4,h5,h6{
 .btn-main:hover,
 .btn-main:active,
 .btn-main:focus{
-    background-color: #AB8657;
+    background-color: var(--footer-color);
     color: white;
     
 }
@@ -136,6 +136,10 @@ footer a:hover{
     text-decoration: none;
     font-weight: 500;
 }
+.form-box input,.form-box textarea{
+    border-radius: 0;
+}
+
 
 @media(max-width:576px){
     .main-wrapper{
