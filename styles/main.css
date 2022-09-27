@@ -43,12 +43,11 @@ p, a h3,h4,h5,h6{
     padding: 15px 30px;
     transition: all 0.2s;
 }
-.btn-main:hover,
-.btn-main:active,
-.btn-main:focus{
-    background-color: var(--footer-color);
-    color: white;
-    
+.btn.btn-main:hover,
+.btn.btn-main:active,
+.btn.btn-main:focus {
+  background-color: var(--footer-color);
+  color: white;
 }
 
 .gallery a{
@@ -96,10 +95,8 @@ footer a:hover{
     border-top: var(--main-color) 2px solid ;
 }
 .btn-box a{
-    padding:  12px 40px ;
-    font-weight: 500;
-    border: 2px solid;
-   
+    padding:  12px 35px ;
+    font-weight: 500; 
 }
 .form-box{
     width: 80%;
@@ -125,7 +122,6 @@ footer a:hover{
     border-radius: 0;
     padding: 10px 25px;
 }
-
 .cart-box{
     background: #f8f9fa;
 }
