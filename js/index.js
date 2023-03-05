@@ -1,6 +1,7 @@
 let cart = {
-  djdjd: 2,
-  djdjd2: 3,
+  djdjd: 1,
+  djdjd2: 2,
+  djdjd3: 3,
 };
 
 
