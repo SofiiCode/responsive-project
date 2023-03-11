@@ -113,10 +113,10 @@ const deleteFunction = (id) => {
 const renderCart = (id) => {
 
   let number = cart[id];
-
   for (i = 0; i < carts.length; i++) {
     if (carts[i].id === id) {
       console.log(carts[i].product);
+      let sum = carts[i].price * cart[id];
       let wrapper = document.getElementById("busket-wrapper");
 
       let cartElement = document.createElement("div");
@@ -131,7 +131,7 @@ const renderCart = (id) => {
             <h5 class="mt-2 cart-tittle">${carts[i].product}</h5>
             <span id="price">${carts[i].price}</span><span>$/p</span>
             <p id='num'>${number}</p>
-            <p><span id="sum">${carts[i].price}</span><span>$</span></p>
+            <p><span id="sum">${sum}</span><span>$</span></p>
             <button href="" class="btn btn-second mb-3 plus" data-id ="${id}">+</button>
             <button href="" class="btn btn-second mb-3 minus" data-id ="${id}">-</button>`;
 
@@ -142,10 +142,7 @@ const renderCart = (id) => {
 
   // let num = document.getElementById('num')
   // num.innerHTML= cart[id]
-    let price = document.getElementById("price").innerHTML;
-    let sumHTML = document.getElementById("sum");
-    console.log(price);
-    sumHTML.innerHTML = price * cart[id];
+    
 
    
 };
